@@ -391,9 +391,7 @@ body {
     transform: scale(0.98);
 }
 
-/* ================================
-   LIGHTBOX
-   ================================ */
+/*  LIGHTBOX  */
 .lightbox {
     position: fixed;
     top: 0;
