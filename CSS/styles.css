@@ -378,7 +378,7 @@ body {
     outline-offset: 2px;
 }
 
-/* Hover states enhancement */
+/* Hover states enhancement */ 
 .quantity-btn:active {
     transform: scale(0.95);
 }
