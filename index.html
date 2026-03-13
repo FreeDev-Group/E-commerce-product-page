@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="./CSS/styles.css">
 </head>
 <body>
+    <!-- Skip to content link for accessibility -->
+    <a href="#main-content" class="skip-to-content">Skip to main content</a>
+
     <!-- MAIN CONTENT -->
     <!-- CART DROPDOWN (ISSUE 8) -->
     <div class="cart-dropdown" id="cartDropdown" hidden>
@@ -31,9 +34,9 @@
         <button class="checkout-btn">Checkout</button>
     </div>
 
-    <main class="container">
+    <main class="container" id="main-content">
         <!-- PRODUCT SECTION - ISSUES 4 & 5 --> 
-        <section class="product-section">
+        <section class="product-section" aria-label="Product details">
             <!-- PRODUCT IMAGE GALLERY - ISSUE 4 -->
             <div class="product-gallery">
                 <!-- Main Product Image -->
@@ -46,16 +49,16 @@
 
                 <!-- Thumbnail Images -->
                 <div class="thumbnails">
-                    <div class="thumbnail active" data-image="./images/image-product-1.jpg">
+                    <div class="thumbnail active" data-image="./images/image-product-1.jpg" tabindex="0" role="button" aria-label="Product image 1">
                         <img src="./images/image-product-1-thumbnail.jpg" alt="Product thumbnail 1">
                     </div>
-                    <div class="thumbnail" data-image="./images/image-product-2.jpg">
+                    <div class="thumbnail" data-image="./images/image-product-2.jpg" tabindex="0" role="button" aria-label="Product image 2">
                         <img src="./images/image-product-2-thumbnail.jpg" alt="Product thumbnail 2">
                     </div>
-                    <div class="thumbnail" data-image="./images/image-product-3.jpg">
+                    <div class="thumbnail" data-image="./images/image-product-3.jpg" tabindex="0" role="button" aria-label="Product image 3">
                         <img src="./images/image-product-3-thumbnail.jpg" alt="Product thumbnail 3">
                     </div>
-                    <div class="thumbnail" data-image="./images/image-product-4.jpg">
+                    <div class="thumbnail" data-image="./images/image-product-4.jpg" tabindex="0" role="button" aria-label="Product image 4">
                         <img src="./images/image-product-4-thumbnail.jpg" alt="Product thumbnail 4">
                     </div>
                 </div>
